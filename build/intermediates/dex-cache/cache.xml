@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.0_dcb250e0ec55c193ffe23d4de8b9d5eff23716a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\design\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.1.0_d4e83ab360a538ac9c9631cd44d6806a8403c57a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\libs\internal_impl-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.0_936bb6731d4fde4f07face0cf9387f0fd11a08dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.0_d965325f272b9d509fb7d1e2e09a994c445ab286.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.0_2f1cf6bfa89f097bfe06946a2b716f9de0815327.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.1.0_03d5893c9dc2fac0325345ba948c23aefdd51687.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.0_fc46ae30995c95b46f5b27fc1063c80a6d4477dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\gtshilombowanticale\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="C:\Users\gtshilombowanticale\Desktop\adneom\POCs_Android\POC_Calendar\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.0_fb236a0758f9202fe5035a025b0bed846e18bca1.jar" />
+    </item>
+
+</items>
