@@ -98,25 +98,35 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private Uri addCalendar(){
+        final Uri calUri = CalendarContract.Calendars.CONTENT_URI;
+        final ContentValues v = new ContentValues();
+        v.put(CalendarContract.Calendars.NAME, "Evenement");
+        v.put(CalendarContract.Calendars.CALENDAR_DISPLAY_NAME, "(test@adneom.com)");
+        v.put(CalendarContract.Calendars.VISIBLE, 1);
+
+        final Uri result = getContentResolver().insert(calUri, v);
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_CALENDAR) != PackageManager.PERMISSION_GRANTED) {
+            //request the missing permissions
+            ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.READ_CALENDAR,Manifest.permission.WRITE_CALENDAR},1);
+        }
+
+        return result;
+    }
+
     /**
      * THIS METHOD ALLOWS TO ADD DIRECTLY AN EVENT TO CALENDAR
      * CHECK IF GRANTED PERMISSIONS FOR CALENDAR
      */
     private void addingEventCalendar() {
-
-        //insert a calendar
-        long calID = 1;
-        ContentValues values = new ContentValues();
-       // The new display name for the calendar
-        values.put(CalendarContract.Calendars.CALENDAR_DISPLAY_NAME, "Evenement (KVGT'S CALENDAR)");
-        Uri updateUri = ContentUris.withAppendedId(CalendarContract.Calendars.CONTENT_URI, calID);
-
+        
+        long calID = 2;
         Calendar cal = Calendar.getInstance();
         //cal.setTimeZone(TimeZone.getTimeZone("GMT-1"));
         Date dateBg = null;
         Date dateEd = null;
         try {
-            dateBg = new SimpleDateFormat("dd/MM/yyyy HH:mm").parse("14/01/2017 17:00");
+            dateBg = new SimpleDateFormat("dd/MM/yyyy HH:mm").parse("13/01/2017 17:00");
             dateEd = new SimpleDateFormat("dd/MM/yyyy HH:mm").parse("14/01/2017 19:35");
 
             Calendar beginTime = Calendar.getInstance();
@@ -140,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
             values.put(CalendarContract.Events.DTSTART, beginTime.getTimeInMillis());
             values.put(CalendarContract.Events.DTEND, endTime.getTimeInMillis());
             values.put(CalendarContract.Events.TITLE, "my event test ");
-            values.put(CalendarContract.Events.DESCRIPTION, "my description !!! ");
+            values.put(CalendarContract.Events.DESCRIPTION, "my description test !!! ");
             values.put(CalendarContract.Events.CALENDAR_ID, calID);
             values.put(CalendarContract.Events.ORGANIZER,"gaeltshilombo@gmail.com");
             values.put(CalendarContract.Events.EVENT_LOCATION,"Kinepolis Bruxelles, Boulevard du Centenaire, Bruxelles");
